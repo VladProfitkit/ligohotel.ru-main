@@ -1266,6 +1266,12 @@ a.main_modal_link span.main_modal_link_content {
 }
 
 @media only screen and (max-width: 560px) {
+    #ui-datepicker-div {
+        top: 50vh !important;
+        transform: translateY(-50%) !important;
+        z-index: 10000 !important;
+    }
+
     .services-usual-space {
         display: inline !important;
     }
