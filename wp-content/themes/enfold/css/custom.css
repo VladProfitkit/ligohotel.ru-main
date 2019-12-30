@@ -1084,6 +1084,15 @@ a.main_modal_link span.main_modal_link_content {
         height: 0 !important;
         display: none !important;
     }
+
+    #ui-datepicker-div {
+        top: 50% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 auto !important;
+        transform: translateY(-50%) !important;
+        z-index: 10000 !important;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
